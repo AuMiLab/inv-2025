@@ -1,0 +1,1 @@
+html,body{height:100%;margin:0}body{overflow:hidden}body.dragging{cursor:grabbing}body.dragging *{-webkit-user-select:none;user-select:none;pointer-events:none}
