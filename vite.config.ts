@@ -4,7 +4,7 @@ import { defineConfig, loadEnv } from 'vite';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      base: '/esc-invierno-2025/', 
+      base: '/inv-2025/', 
 
       define: {
         'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
